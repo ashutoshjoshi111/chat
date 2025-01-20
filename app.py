@@ -24,7 +24,7 @@ import tiktoken  # For counting tokens
 #GET http://127.0.0.1:5000/products/
 
 # Set OpenAI API Key
-os.environ["OPENAI_API_KEY"] = "sk-proj-Q3j6WX1r9BeLTshAlYqLT3BlbkFJLFy6cQXCz5heue01M2wL"
+os.environ["OPENAI_API_KEY"] = ""
 
 # Initialize Flask app
 app = Flask(__name__)

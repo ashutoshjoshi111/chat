@@ -17,14 +17,16 @@ logging.basicConfig(level=logging.INFO)
 pdf_reader = Blueprint('pdf_reader', __name__)
 
 # Set OpenAI API Key
-openai.api_key = "sk-proj-Q3j6WX1r9BeLTshAlYqLT3BlbkFJLFy6cQXCz5heue01M2wL"
+openai.api_key = ""
 
 # Global variables to store the vectorstore and retriever
 vectorstore = None
 
 # Initialize Pinecone
-pinecone = Pinecone(api_key="6fce9238-ea57-4005-a00b-4a3a0b889253")
+pinecone = Pinecone(api_key="")
 
+
+# 6fce9238-ea57-4005-a00b-4a3a0b889253
 
 # Function to create a new Pinecone index if it doesn't exist
 def create_pinecone_index():
